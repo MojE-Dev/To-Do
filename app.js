@@ -35,4 +35,4 @@ close.addEventListener('click',()=>{
     divBackdrop.style.transform = 'translateX(-100%)'
     divBackdrop.style.transition = 'transform 1s linear'
 })
-//SALEH
+
