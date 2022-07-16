@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div id="div-backdrop">
+        <div class="warning">
+            <p class="text-warning">Title or Description is null</p>
+            <button id="close" class="btn-warning">Close</button>
+        </div>
+    </div>
+    <main class="">
+        <!-- <form action="#"> -->
+            <section class=" flex-column justify-content-center align-items-center flex-gap-two-half ">
+                <h1 class="font-size-24 font-weight-500 padding-top">To Do list</h1>
+                <input id="title" class="input" type="text" placeholder="Title">
+                <textarea class="input textarea" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+                <button id="submit" class="btn-submit">submit</button>
+            </section>
+        <!-- </form> -->
+        <section id="list" class="padding-left padding-right padding-top padding-bottom flex-column justify-content-start align-items-start flex-gap-two-half"></section>
+    </main>
+</body>
+<script src="./app.js"></script>
+
+</html>

@@ -1,0 +1,42 @@
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    font-family: Noto Sans;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    width: 18.4rem;
+    height: 4.8rem;
+    box-shadow: 0px 4px 8px rgba(0, 134, 106, 0.18), 0px 2px 4px rgba(0, 134, 106, 0.18);
+}
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: #00624d;
+}
+.input{
+    display: flex;
+    padding-left: .5rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30.4rem;
+    height: 3.2rem;
+    background-color: var(--white-color-basic);
+    color: var(--black-color);
+    font-family: Noto Sans;;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color); 
+
+}
+.input::placeholder{
+    color: var(--black-color);
+    opacity: 0.5;
+}
+.input:focus{
+    outline: none;
+}
